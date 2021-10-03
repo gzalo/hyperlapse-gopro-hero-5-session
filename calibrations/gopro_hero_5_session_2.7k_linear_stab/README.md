@@ -1,0 +1,1 @@
+These parameters have some issues and cause the image to be fuzzy in the middle. Apparently it's evaluating polynomials with huge coefficients and the rounding errors cause some noise when mapping and inverse-mapping the camera (I think).

@@ -1,0 +1,36 @@
+#human readable description 
+description GoPro HERO5 Session
+cameraid 16
+
+#polynomial coefficients for the DIRECT mapping function (ocam_model.ss in MATLAB). These are used by cam2world
+
+poly_coeff_direct -1.697936e+03 0.000000e+00 3.475070e-05 1.754245e-07 -5.896724e-11
+
+#polynomial coefficients for the inverse mapping function (ocam_model.invpol in MATLAB). These are used by world2cam
+
+poly_coeff_inverse 6183.366813 21963.802672 54661.075712 88409.930608 92663.100341 63642.347320 27600.587534 6829.405686 731.781950 
+
+#center: "row" and "column", starting from 0 (C convention)
+
+center 768.699146 1347.614570
+
+#affine parameters "c", "d", "e"
+
+affine_params 0.999322 -0.000046 0.000637
+
+#image size: "height" and "width"
+
+image_size 1520 2704
+
+# average pixel reprojection error
+
+error 1.12
+
+# -------------------------
+#
+# Supported resolutions 
+#
+# Each line specifies one supported resolution. The format is width, height, scale-x, scale-y, bias-x, bias-y
+
+res 2704 1520 1 1 0 0 Medium
+
